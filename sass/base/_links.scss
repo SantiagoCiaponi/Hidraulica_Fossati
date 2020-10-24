@@ -20,7 +20,17 @@
   text-decoration: none;
   border-radius: 2px;
 }
-.button:hover{
-  font-size: 1.55rem;
-  transition-duration: 1s;
+
+.button_prj{
+  font-size: 1.2rem;
+}
+.contact_info_link{
+  display: grid;
+  grid-template-columns: 7fr 2fr;
+}
+.contact_info_link a{
+  color: $color-darkgrey;
+  text-decoration: none;
+  display: flex;
+  align-self: center;
 }
