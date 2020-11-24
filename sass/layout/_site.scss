@@ -22,7 +22,7 @@ header{
 
 .prj{
   margin: 20px auto;
-  width: 80%;
+  width: 90%;
   height: 80vh;
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -76,13 +76,11 @@ header{
 }
 
 .bar_wrapper{
-  margin: 40px 0;
+  margin: 30px 0;
   width: 100%;
   display: flex;
-  justify-content: end;
   .bar{
-    position: absolute;
-    right: 0;
+    margin: 40px 40px 0;
     background-color: $color-brand;
     height: 20px;
     width: 100%;

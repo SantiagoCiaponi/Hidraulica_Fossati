@@ -1,0 +1,35 @@
+@media screen and (max-width:1200px){
+  .hero__title{
+    font-size: 3.5rem;
+  }
+  .hero__description{
+    font-size: 1.8rem;
+  }
+  header{
+    grid-template-columns: 4fr 5fr;
+    .navbar{
+      padding: 0;
+    }
+  }
+  .prj{
+    width: 95%;
+  }
+  .title_aside{
+    font-size: 1.2rem;
+    margin: 17px 0 22px;
+  }
+  h2{
+    font-size: 2.5rem;
+    margin-left: 5%;
+  }
+  hr{
+    width: 90%;
+  }
+  .contact{
+    width: 90%;
+    grid-template-columns: 7fr 5fr;
+    h3{
+      font-size: 1.4rem;
+    }
+  }
+}
